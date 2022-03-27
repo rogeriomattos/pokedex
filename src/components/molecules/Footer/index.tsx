@@ -1,12 +1,14 @@
+import * as S from './styles'
+
 const Footer = () => (
-  <footer>
+  <S.Footer>
     <a
       href="https://github.com/rogeriomattos"
       target="_blank"
     >
       Developed by Rogerio Almeida de Mattos
     </a>
-  </footer>
+  </S.Footer>
 )
 
 export default Footer;
