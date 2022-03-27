@@ -1,3 +1,4 @@
+import * as S from './styles';
 import { Seo, Footer } from 'components/molecules';
 
 interface LayoutProps {
@@ -7,7 +8,7 @@ interface LayoutProps {
 }
 
 const Layout = ({ title, description, children }: LayoutProps) => (
-  <div>
+  <S.Content>
     <Seo
       title={title}
       description={description}
@@ -17,7 +18,7 @@ const Layout = ({ title, description, children }: LayoutProps) => (
     </main>
 
     <Footer />
-  </div>
+  </S.Content>
 );
 
 export default Layout;
